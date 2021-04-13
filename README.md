@@ -2,6 +2,7 @@
 Provide Endpoints to perform CRUD operation(s) on audio tape(Song, Podcast, Audiobook)
 
 Requirements:-
+1. Python - version 3.8
 1. PostgreSQL - version 12
 2. Django - version 3.2
 
