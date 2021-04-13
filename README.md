@@ -39,19 +39,19 @@ Query Paramters:-
     - must be integer
     
 Endpoints:-
-1. Endpoint to CREATE an audio file of a specific type - localhost:8000/filed/<audioFileType>
+1. Endpoint to CREATE an audio file of a specific type - localhost:8000/filed/{audioFileType>}
   - Method - POST
   
-2. Endpoint to READ all audio files of a specific type - localhost:8000/filed/<audioFileType>
+2. Endpoint to READ all audio files of a specific type - localhost:8000/filed/{audioFileType}
   - Method - GET
 
-3. Endpoint to READ a specific audio file of a specific type - localhost:8000/filed/<audioFileType>/<audioFileID>
+3. Endpoint to READ a specific audio file of a specific type - localhost:8000/filed/{audioFileType}/{audioFileID}
   - Method - GET
 
-4. Endpoint to UPDATE an audio file of a specific type - localhost:8000/filed/<audioFileType>/<audioFileID>
+4. Endpoint to UPDATE an audio file of a specific type - localhost:8000/filed/{audioFileType}/{audioFileID}
   - Method - PUT
 
-5. Endpoint to DELETE an audio file of a specific type - localhost:8000/filed/<audioFileType>/<audioFileID>
+5. Endpoint to DELETE an audio file of a specific type - localhost:8000/filed/{audioFileType}/{audioFileID}
   - Method - DELETE
 
 Response of these endpoints:
