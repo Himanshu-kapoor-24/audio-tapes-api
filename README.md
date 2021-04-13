@@ -39,7 +39,7 @@ Query Paramters:-
     - must be integer
     
 Endpoints:-
-1. Endpoint to CREATE an audio file of a specific type - localhost:8000/filed/{audioFileType>}
+1. Endpoint to CREATE an audio file of a specific type - localhost:8000/filed/{audioFileType}
   - Method - POST
   
 2. Endpoint to READ all audio files of a specific type - localhost:8000/filed/{audioFileType}
